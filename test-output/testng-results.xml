@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="39" started-at="2019-06-18T04:53:34Z" finished-at="2019-06-18T04:53:34Z">
+  <suite name="Suite" duration-ms="84" started-at="2019-06-19T06:43:27Z" finished-at="2019-06-19T06:43:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="39" started-at="2019-06-18T04:53:34Z" finished-at="2019-06-18T04:53:34Z">
-      <class name="maven12.Test124">
-        <test-method status="PASS" signature="m1()[pri:0, instance:maven12.Test124@396a51ab]" name="m1" duration-ms="17" started-at="2019-06-18T10:23:34Z" finished-at="2019-06-18T10:23:34Z">
+    <test name="Test" duration-ms="84" started-at="2019-06-19T06:43:27Z" finished-at="2019-06-19T06:43:27Z">
+      <class name="maven123.Test1234">
+        <test-method status="PASS" signature="m1()[pri:0, instance:maven123.Test1234@7dc7cbad]" name="m1" duration-ms="33" started-at="2019-06-19T12:13:27Z" finished-at="2019-06-19T12:13:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-      </class> <!-- maven12.Test124 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- maven123.Test1234 -->
+      <class name="maven123.Test12345">
+        <test-method status="PASS" signature="ask()[pri:0, instance:maven123.Test12345@548a9f61]" name="ask" duration-ms="2" started-at="2019-06-19T12:13:27Z" finished-at="2019-06-19T12:13:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ask -->
+      </class> <!-- maven123.Test12345 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
