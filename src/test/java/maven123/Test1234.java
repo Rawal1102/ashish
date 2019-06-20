@@ -5,7 +5,7 @@ public class Test1234 {
 		@org.testng.annotations.Test
 		public void m1()
 		{
-			System.out.println("ashish");
+			System.out.println("ashishrawal");
 
 		}
 
